@@ -1,0 +1,50 @@
+Exercício 1
+const idade1 = 20;
+const idade2 = 25;
+console.log("\nExercício")
+console.log(idade1 > idade2);
+console.log(idade1 < idade2);
+console.log(idade1 >= idade2);
+console.log(idade1 <= idade2);
+console.log(idade1 == idade2);
+console.log(idade1 === idade2); 
+console.log(idade1 !== idade2);
+
+Exercício 2
+console.log("\nExercício 1 - Comparação")
+const x = 5;
+const y = 10;
+
+console.log(x > y);
+console.log(x < y);
+console.log(x >= y);
+console.log(x <= y);
+console.log(x == y); 
+console.log(x === y); 
+console.log(x !== y);
+
+Exercício 3
+console.log("Exercício 2 - Comparação")
+
+console.log(10 == "10");
+
+console.log(10 === "10");
+
+console.log(true == 1);
+
+console.log(true === 1);
+
+console.log(null == undefined);
+
+console.log(null === undefined);
+
+Exercício 4
+//#region Exercício 3 - Sistema de acesso - Desafio
+const dataNascimento = new Date("2000-02-29");
+const ativo = true;
+
+const dezoitoAnosEmMilisegundos = 18 * 365.25 * 24 * 60 * 60 * 1000;
+
+const podeAcessar = (new Date() - dataNascimento) >= dezoitoAnosEmMilisegundos && ativo;
+
+console.log(podeAcessar);
