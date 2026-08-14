@@ -1,11 +1,14 @@
-//#region Exercício 3 - Sistema de acesso - Desafio
-const dataNascimento = new Date("2000-02-29");
-const ativo = true;
+console.log("Atividade 6")
 
-const dezoitoAnosEmMilisegundos = 18 * 365.25 * 24 * 60 * 60 * 1000;
+let i = 1;
 
-const podeAcessar = (new Date() - dataNascimento) >= dezoitoAnosEmMilisegundos && ativo;
+while(i <= 100) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+    i++
+}
 
-console.log(podeAcessar);
+
 
 
